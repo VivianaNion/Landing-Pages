@@ -1,17 +1,1 @@
 /*css*/
-h1 	{ 
-	color: red;
-	font-size: 60px;
-	text-align: center;
-	}
-div {
-	margin: 20px;
-	border-color: yellow;
-	font-size: 20px;
-	line-height: 2;
-	letter-spacing: 1px; 
-}
-
-.header-image{
-	width: 30%;
-}
