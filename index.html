@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
     <title>Cars</title>
   </head>
   <body>
@@ -28,9 +29,9 @@
             <div class="card" style="width: 18rem;">
               <img src="images/mustang.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Auto 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Ford Mustang GT</h5>
+                <p class="card-text">La nueva versión 2015 tiene el motor de aspiración natural más potente jamás colocado en un modelo de este tipo. El nuevo Shelby GT350 se ha construido sobre la idea original del finado Carroll Shelby, pero enriquecido con la tecnología, diseño y manejo de la sexta generación de este pony car.</p>
+                <a href="https://es.wikipedia.org/wiki/Ford_Mustang" target="_blank" class="btn btn-primary">Mas informacion</a>
               </div>
             </div> 
           </div>
@@ -38,9 +39,9 @@
             <div class="card" style="width: 18rem;">
               <img src="Images/camaro.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Auto 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Chevrolet Camaro</h5>
+                <p class="card-text">Su motor V8 LT4 de 6162 cm³ (6,2 L; 376 plg³) recurre a una sobrealimentación por compresor para elevar su rendimiento hasta los 650 HP (659 CV; 485 kW), que le permiten acelerar de 0 a 60 mph (97 km/h) en solamente 3,5 segundos, mientras que el 1/4 de milla (402 m) se completa en 11,4 segundos.</p>
+                <a href="https://es.wikipedia.org/wiki/Chevrolet_Camaro" target="_blank" class="btn btn-primary">Mas informacion</a>
               </div>
             </div>
           </div>
@@ -48,9 +49,9 @@
             <div class="card" style="width: 18rem;">
               <img src="Images/mclaren.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Auto 1</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Aston Martin Vulcan</h5>
+                <p class="card-text">El Vulcan es diseñado por el creativo Marek Reichman. El Vulcan está propulsado por la versión más potente de Aston del motor V12 de 7.0 litros con aspiración natural de la compañía. ... El Vulcan cumplirá con todos los requisitos de seguridad de carrera relevantes.</p>
+                <a href="https://es.wikipedia.org/wiki/Aston_Martin_Vulcan" target="_blank" class="btn btn-primary">Mas informacion</a>
               </div>
             </div>
           </div>
@@ -58,41 +59,37 @@
       </div>
     </section> 
     
-    <footer class="mt-auto py-3 bg-dark w-100">
+    <footer class="mt-auto py-3 bg-dark container-fluid">
+  
       <div class="row">
          <div class="col-6">
-             <iframe class="class-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26183.70597889049!2d-56.1504876!3d-34.   882269199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1621384637160!5m2!1ses!2suy" allowfullscreen="" loading="lazy">
-           </iframe>
+          <iframe class="class-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209625.6410698726!2d-56.37652562577279!3d-34.82101802101376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80ffc63bf7d3%3A0x6b321b2e355bec99!2sMontevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1621788972083!5m2!1ses!2suy" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
           </div>
         <div class="col-6">
           <form>
             <div class="form-group">
+              <label for="exampleFormControlInput1">Nombre y Apelliedo</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Apellido">
+            </div>
+            <div class="form-group">
               <label for="exampleFormControlInput1">Email address</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Example select</label>
+            <div class="form-group">1
+              <label for="exampleFormControlSelect1">Seleccione el auto</label>
               <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                <option>Auto 1</option>
+                <option>Auto 2</option>
+                <option>Auto 3</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="exampleFormControlSelect2">Example multiple select</label>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <label for="exampleFormControlTextarea1">Escriba su mensaje</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-grup">
+              <input type="submit" class="btn-submit" value="Enviar" class="btn btn-light">
             </div>
           </form>
         </div>

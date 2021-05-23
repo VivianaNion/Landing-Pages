@@ -1,4 +1,12 @@
 .class-maps{
 	width: 100%;
-	border: 5px;
+	height: 70%;
+	padding: 20px;
+}
+footer{
+	color: white;
+}
+.btn-submit{
+	padding-top: 5px;
+	margin-top: 10px;
 }
