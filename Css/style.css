@@ -19,12 +19,12 @@ footer{
 	padding-top: 15px;
 }
 
-.rrs_img {
+.rrss_div {
 	padding: 30px;
 	width: 20%;
 	display: inline-block;
   }
-  .rrs_img>img {
+  .rrss_img {
 	width: 50px;
   }
   
